@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>九宫格</title>
+    <style type="text/css" media="screen">
+        *{
+            margin:0;
+            padding:0;
+        }
+       .box{
+            margin:50px auto;
+       }
+       .box>div{
+        float:left;
+        width: 30%;
+        padding-bottom:30%;
+        border-radius:8%;
+        margin:1.5%;
+        overflow:hidden;
+        background-color:orange;
+       }
+       .clear{
+        content:"";
+        clear:both;
+       }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <p class="clear"></p>
+    </div>
+</body>
+</html>
