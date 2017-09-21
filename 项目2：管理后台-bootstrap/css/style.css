@@ -1,0 +1,54 @@
+/*
+* @Author: Marte
+* @Date:   2017-09-12 20:02:34
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-09-20 21:29:47
+*/
+html{ min-width:800px;}
+body {
+            min-width:800px;
+            padding-top:50px;
+            padding-bottom:40px;
+            color: #5a5a5a;
+}
+/* 左侧导航栏样式 */
+.sidebar{
+    background-color: #ddd;
+    display: block;
+    position: fixed;
+    padding:20px;
+    top:50px;
+    bottom:0;
+    border-right:1px solid #eee;
+    z-index:1000;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+ .nav-sidebar {
+        margin-right: -21px;  /* 抵消外层的padding，padding:20px; */
+        margin-bottom: 20px;
+        margin-left: -20px;
+
+}
+ .nav-sidebar > li > a {
+            padding-right: 20px;
+            padding-left: 20px;
+}
+ .nav-sidebar > .active > a,
+        .nav-sidebar > .active > a:hover,
+        .nav-sidebar > .active > a:focus {
+            color: #fff;
+            background-color: #428bca;
+}
+/* 右侧控制台样式 */
+.main {
+     padding: 20px;
+}
+
+.main .page-header {
+     margin-top: 0;
+}
+
+
+
+
